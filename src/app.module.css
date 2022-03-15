@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Smooch+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+    /* colors */
+    --color-icon: rgba(0, 0, 0, 0.54);
+    --color-icon-inactive: rgba(0, 0, 0, 0.26);
+    --color-highlight: rgb(179, 0, 0);
+    --color-background: rgb(225, 225, 234);
+    /* sizes */
+    --icon-small: 18px;
+}
+
+body {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 15pt;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25pt;
+}

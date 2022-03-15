@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: [name] 130px [value] 50px;
+    margin-bottom: 10px;
+}
+
+.container>input {
+    text-align: center;
+    line-height: 20px;
+}
+
+.container>input:focus {
+    outline: none;
+    border-color: #b30000;
+}
+
+.container>label {
+    padding-top: 1px;
+}
